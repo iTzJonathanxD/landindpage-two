@@ -1,0 +1,68 @@
+{
+  "slides": [
+    {
+      "backgroundImage": "https://images.pexels.com/photos/3010317/pexels-photo-3010317.jpeg",
+      "title": "Únete al Futuro con el",
+      "subtitle1": "Internet más Rápido de",
+      "subtitle2": "Puerto Rico",
+      "description": "Cobertura en toda Puerto Rico, sin contratos complicados. <br />Disfruta de velocidad, estabilidad y atención local.",
+      "badge": {
+        "value": "+3000",
+        "label": "Clientes satisfechos"
+      },
+      "alphyImage": "/alphy-derecha.svg",
+      "button": {
+        "text": "Cambiate",
+        "url": "/contacto"
+      }
+    },
+    {
+      "backgroundImage": "https://images.pexels.com/photos/2927993/pexels-photo-2927993.jpeg",
+      "title": "Conéctate sin límites",
+      "subtitle1": "Planes flexibles para todos",
+      "subtitle2": "los hogares",
+      "description": "Elige el plan que mejor se adapte a ti. <br />Sin contratos forzosos, sin sorpresas.",
+      "badge": {
+        "value": "+1500",
+        "label": "Planes activos"
+      },
+      "alphyImage": "/alphy-derecha.svg",
+      "button": {
+        "text": "Ver Planes",
+        "url": "/pricing"
+      }
+    },
+    {
+      "backgroundImage": "https://images.pexels.com/photos/20795503/pexels-photo-20795503.jpeg",
+      "title": "Soporte local",
+      "subtitle1": "Atención personalizada",
+      "subtitle2": "en todo momento",
+      "description": "Nuestro equipo está listo para ayudarte <br />cuando lo necesites.",
+      "badge": {
+        "value": "24/7",
+        "label": "Soporte"
+      },
+      "alphyImage": "/alphy-derecha.svg",
+      "button": {
+        "text": "Contáctanos",
+        "url": "/contacto"
+      }
+    },
+    {
+      "backgroundImage": "https://images.pexels.com/photos/2927021/pexels-photo-2927021.jpeg",
+      "title": "Tecnología de punta",
+      "subtitle1": "Redes de alta velocidad",
+      "subtitle2": "para tu negocio",
+      "description": "Impulsa tu empresa con la mejor conexión <br />y atención empresarial.",
+      "badge": {
+        "value": "+500",
+        "label": "Empresas conectadas"
+      },
+      "alphyImage": "/alphy-derecha.svg",
+      "button": {
+        "text": "Soluciones empresariales",
+        "url": "/contacto"
+      }
+    }
+  ]
+}
