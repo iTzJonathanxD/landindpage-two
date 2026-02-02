@@ -1,0 +1,52 @@
+{
+  "heros": [
+    {
+      "id": "default-1",
+      "background": "url('https://images.pexels.com/photos/3010317/pexels-photo-3010317.jpeg') center/cover no-repeat"
+    },
+    {
+      "id": "default-2",
+      "background": "url('https://images.pexels.com/photos/2927993/pexels-photo-2927993.jpeg') center/cover no-repeat"
+    },
+    {
+      "id": "default-3",
+      "background": "url('https://images.pexels.com/photos/20795503/pexels-photo-20795503.jpeg') center/cover no-repeat"
+    },
+    {
+      "id": "default-4",
+      "background": "url('https://images.pexels.com/photos/2927021/pexels-photo-2927021.jpeg') center/cover no-repeat"
+    },
+    {
+      "id": "iptv-1",
+      "background": "url('https://images.pexels.com/photos/3010317/pexels-photo-3010317.jpeg') center/cover no-repeat"
+    },
+    {
+      "id": "iptv-2",
+      "background": "url('https://images.pexels.com/photos/2927993/pexels-photo-2927993.jpeg') center/cover no-repeat"
+    },
+    {
+      "id": "iptv-3",
+      "background": "url('https://images.pexels.com/photos/20795503/pexels-photo-20795503.jpeg') center/cover no-repeat"
+    },
+    {
+      "id": "iptv-4",
+      "background": "url('https://images.pexels.com/photos/2927021/pexels-photo-2927021.jpeg') center/cover no-repeat"
+    },
+    {
+      "id": "voip-1",
+      "background": "url('https://images.pexels.com/photos/3010317/pexels-photo-3010317.jpeg') center/cover no-repeat"
+    },
+    {
+      "id": "voip-2",
+      "background": "url('https://images.pexels.com/photos/2927993/pexels-photo-2927993.jpeg') center/cover no-repeat"
+    },
+    {
+      "id": "voip-3",
+      "background": "url('https://images.pexels.com/photos/20795503/pexels-photo-20795503.jpeg') center/cover no-repeat"
+    },
+    {
+      "id": "voip-4",
+      "background": "url('https://images.pexels.com/photos/2927021/pexels-photo-2927021.jpeg') center/cover no-repeat"
+    }
+  ]
+}

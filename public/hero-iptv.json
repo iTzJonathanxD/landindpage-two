@@ -1,0 +1,32 @@
+{
+  "slides": [
+    {
+      "backgroundImage": "https://images.pexels.com/photos/3010317/pexels-photo-3010317.jpeg",
+      "title": "Alphanet IPTV",
+      "description": "Lo mejor del entretenimiento digital",
+      "button": {
+        "text": "Ver planes IPTV",
+        "url": "/pricing"
+      }
+    },
+    {
+      "backgroundImage": "https://images.pexels.com/photos/2927993/pexels-photo-2927993.jpeg",
+      "backgroundOnly": true,
+      "link": "/channels"
+    },
+    {
+      "backgroundImage": "https://images.pexels.com/photos/20795503/pexels-photo-20795503.jpeg",
+      "title": "Soporte 24/7",
+      "description": "Nuestro equipo está listo para ayudarte en cualquier momento.",
+      "button": {
+        "text": "Contáctanos",
+        "url": "/contacto"
+      }
+    },
+    {
+      "backgroundImage": "https://images.pexels.com/photos/2927021/pexels-photo-2927021.jpeg",
+      "backgroundOnly": true,
+      "link": "/beneficios"
+    }
+  ]
+}

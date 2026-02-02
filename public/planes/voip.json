@@ -1,0 +1,66 @@
+{
+  "residencial": [
+    {
+      "id": "voip-basic",
+      "name": "Basic VoIP",
+      "price": 19.99,
+      "features": [
+        { "icon": "Phone", "text": "Llamadas ilimitadas en Puerto Rico" },
+        { "icon": "Voicemail", "text": "Buzón de voz al email" },
+        { "icon": "Phone", "text": "Teléfono fijo incluido" },
+        { "icon": "Volume2", "text": "Timbrado fuerte para ambientes ruidosos" },
+        { "icon": "AlertCircle", "text": "Acceso al E911" }
+      ]
+    },
+    {
+      "id": "voip-advance",
+      "name": "Advance VOIP",
+      "price": 23.99,
+      "features": [
+        { "icon": "Phone", "text": "Llamadas ilimitadas en Puerto Rico y USA" },
+        { "icon": "Move", "text": "Teléfono inalámbrico incluido" },
+        { "icon": "Wifi", "text": "Cobertura hasta 80 pies (extendible)" },
+        { "icon": "PhoneCall", "text": "Llamadas en espera" },
+        { "icon": "Volume2", "text": "Timbrado fuerte" },
+        { "icon": "ShieldAlert", "text": "Acceso al E911" }
+      ]
+    }
+  ],
+  "comercial": [
+    {
+      "id": "alpha-voip-business",
+      "name": "Alpha VoIP Business",
+      "price": 29.99,
+      "features": [
+        { "icon": "Phone", "text": "Llamadas ilimitadas en Puerto Rico" },
+        { "icon": "Voicemail", "text": "Buzón de voz al email" },
+        { "icon": "Landline", "text": "Teléfono fijo incluido" },
+        { "icon": "Volume2", "text": "Timbrado fuerte" },
+        { "icon": "ShieldAlert", "text": "Acceso a E911" }
+      ]
+    },
+    {
+      "id": "alpha-voip-business-plus",
+      "name": "Alpha VoIP Business Plus",
+      "price": 34.99,
+      "features": [
+        { "icon": "Phone", "text": "Llamadas ilimitadas en Puerto Rico y USA" },
+        { "icon": "Move", "text": "Teléfono inalámbrico incluido" },
+        { "icon": "Wifi", "text": "Cobertura extendible hasta 80 pies" },
+        { "icon": "PhoneCall", "text": "Llamadas en espera" },
+        { "icon": "ShieldAlert", "text": "Acceso a E911" }
+      ]
+    },
+    {
+      "id": "voip-empresarial",
+      "name": "VoIP Empresarial",
+      "price": 30,
+      "features": [
+        { "icon": "Globe", "text": "Llamadas ilimitadas en Puerto Rico" },
+        { "icon": "Voicemail", "text": "Buzón de voz al email" },
+        { "icon": "Users", "text": "Acceso multiplataforma" },
+        { "icon": "LayoutDashboard", "text": "Panel de administración" }
+      ]
+    }
+  ]
+}

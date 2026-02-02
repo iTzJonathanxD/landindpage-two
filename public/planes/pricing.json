@@ -1,0 +1,322 @@
+{
+  "internet": {
+    "comercial": [
+      {
+        "id": "comercial1",
+        "name": "Starter Plan",
+        "price": 47.99,
+        "speed": 25,
+        "unit": "Mbps",
+        "symmetrical": true,
+        "devices": "1-5",
+        "router": "TENDA F6, F3",
+        "description": "Plan básico comercial para pequeñas necesidades de conectividad.",
+        "installation_cost": 169.99,
+        "features": [
+          { "icon": "Home", "text": "25Mbps simétrico" },
+          { "icon": "Wifi", "text": "Router TENDA F6, F3" },
+          { "icon": "ShieldCheck", "text": "1-5 dispositivos" }
+        ]
+      },
+      {
+        "id": "comercial2",
+        "name": "Growth Plan",
+        "price": 67.99,
+        "speed": 40,
+        "unit": "Mbps",
+        "symmetrical": true,
+        "devices": "1-8",
+        "router": "TENDA AC6",
+        "description": "Plan de crecimiento para negocios en expansión.",
+        "installation_cost": 169.99,
+        "features": [
+          { "icon": "Rocket", "text": "40Mbps simétrico" },
+          { "icon": "Wifi", "text": "Router TENDA AC6" },
+          { "icon": "Gift", "text": "Router Repetidor de regalo" },
+          { "icon": "Users", "text": "1-8 dispositivos" }
+        ]
+      },
+      {
+        "id": "comercial3",
+        "name": "Expert Plan",
+        "price": 77.99,
+        "speed": 65,
+        "unit": "Mbps",
+        "symmetrical": true,
+        "devices": "1-15",
+        "router": "TENDA AX1800, AC10",
+        "description": "Plan experto para negocios con mayores demandas de conectividad.",
+        "installation_cost": 169.99,
+        "features": [
+          { "icon": "Zap", "text": "65Mbps simétrico" },
+          { "icon": "Wifi", "text": "Router TENDA AX1800, AC10" },
+          { "icon": "Phone", "text": "Beneficio oferta de VoIP incluido" },
+          { "icon": "Server", "text": "1-15 dispositivos" }
+        ],
+        "isPopular": true
+      },
+      {
+        "id": "comercial4",
+        "name": "Enterprise Plan",
+        "price": 99.99,
+        "speed": 80,
+        "unit": "Mbps",
+        "symmetrical": true,
+        "devices": "1-20",
+        "router": "TENDA AX1800, AC10",
+        "description": "Solución empresarial completa para negocios establecidos.",
+        "installation_cost": 169.99,
+        "features": [
+          { "icon": "Briefcase", "text": "80Mbps simétrico" },
+          { "icon": "Wifi", "text": "Router TENDA AX1800, AC10" },
+          { "icon": "CheckCircle", "text": "Todos los beneficios anteriores incluidos" },
+          { "icon": "Users", "text": "1-20 dispositivos" }
+        ]
+      },
+      {
+        "id": "comercial5",
+        "name": "Alpha Max Plan",
+        "price": 77.99,
+        "speed": 200,
+        "unit": "Mbps",
+        "symmetrical": true,
+        "devices": "Ilimitados",
+        "router": "TENDA AX1800, AC10",
+        "description": "Máxima velocidad para empresas con altas demandas de conectividad (disponible en zonas específicas).",
+        "installation_cost": 169.99,
+        "features": [
+          { "icon": "Infinity", "text": "200Mbps simétrico" },
+          { "icon": "Wifi", "text": "Router TENDA AX1800, AC10" },
+          { "icon": "CheckCircle", "text": "Todos los beneficios anteriores incluidos" },
+          { "icon": "MapPin", "text": "Soporte específico para zonas de la isla" }
+        ],
+        "isOffer": true
+      }
+    ],
+    "residencial": [
+      {
+        "id": "residencial1",
+        "name": "Starter Plan",
+        "price": 19.99,
+        "speed": 50,
+        "unit": "Mbps",
+        "symmetrical": true,
+        "description": "Perfecto para hogares pequeños que buscan una conexión estable.",
+        "features": [
+          { "icon": "Home", "text": "Internet simétrico" },
+          { "icon": "Wifi", "text": "Router incluido" },
+          { "icon": "CloudRain", "text": "A prueba de lluvia" }
+        ],
+        "isOffer": true
+      },
+      {
+        "id": "residencial2",
+        "name": "Geek Plan",
+        "price": 29.99,
+        "speed": 100,
+        "unit": "Mbps",
+        "symmetrical": true,
+        "description": "Ideal para usuarios avanzados y familias tecnológicas.",
+        "features": [
+          { "icon": "Code", "text": "Internet simétrico" },
+          { "icon": "Wifi", "text": "Router incluido" },
+          { "icon": "CloudRain", "text": "A prueba de lluvia" }
+        ]
+      },
+      {
+        "id": "residencial3",
+        "name": "Xtreme Plan",
+        "price": 39.99,
+        "speed": 150,
+        "unit": "Mbps",
+        "symmetrical": true,
+        "description": "Para aquellos que demandan máxima velocidad en el hogar.",
+        "features": [
+          { "icon": "Zap", "text": "Internet simétrico" },
+          { "icon": "Wifi", "text": "Router incluido" },
+          { "icon": "CloudRain", "text": "A prueba de lluvia" }
+        ],
+        "isPopular": true
+      },
+      {
+        "id": "residencial4",
+        "name": "Gamer Plan",
+        "price": 49.99,
+        "speed": 175,
+        "unit": "Mbps",
+        "symmetrical": true,
+        "description": "Optimizado para gaming y streaming de alta calidad.",
+        "features": [
+          { "icon": "Gamepad2", "text": "Internet simétrico" },
+          { "icon": "Wifi", "text": "Router incluido" },
+          { "icon": "CloudRain", "text": "A prueba de lluvia" }
+        ]
+      },
+      {
+        "id": "residencial5",
+        "name": "Alpha Max",
+        "price": 77.99,
+        "speed": 200,
+        "unit": "Mbps",
+        "symmetrical": true,
+        "description": "Máxima velocidad residencial (disponible en zonas específicas de la isla).",
+        "features": [
+          { "icon": "Infinity", "text": "Internet simétrico" },
+          { "icon": "Wifi", "text": "Router incluido" },
+          { "icon": "CloudRain", "text": "A prueba de lluvia" },
+          { "icon": "MapPin", "text": "Soporte específico para zonas de la isla" }
+        ]
+      }
+    ]
+  },
+  "iptv": {
+    "residencial": [
+      {
+        "id": "iptv-res-1",
+        "name": "Vital",
+        "category": "Vital",
+        "price": 9.99,
+        "description": "Plan básico con canales esenciales para el entretenimiento familiar.",
+        "total_channels": 120,
+        "channel_types": [
+          {
+            "type": "Entretenimiento",
+            "count": 80
+          },
+          {
+            "type": "Deportes",
+            "count": 20
+          },
+          {
+            "type": "Noticias",
+            "count": 20
+          }
+        ],
+        "features": [
+          "Calidad HD",
+          "Guía de programación",
+          "Soporte básico",
+          "1 dispositivo simultáneo"
+        ]
+      },
+      {
+        "id": "iptv-res-2",
+        "name": "Reaction",
+        "category": "Reaction",
+        "price": 14.99,
+        "description": "Plan intermedio con más opciones de deportes y entretenimiento.",
+        "total_channels": 180,
+        "channel_types": [
+          {
+            "type": "Entretenimiento",
+            "count": 100
+          },
+          {
+            "type": "Deportes",
+            "count": 50
+          },
+          {
+            "type": "Noticias",
+            "count": 30
+          }
+        ],
+        "features": [
+          "Calidad HD y Full HD",
+          "Guía de programación avanzada",
+          "Soporte prioritario",
+          "3 dispositivos simultáneos"
+        ],
+        "isPopular": true
+      },
+      {
+        "id": "iptv-res-3",
+        "name": "Unlimited",
+        "category": "Unlimited",
+        "price": 19.99,
+        "description": "Plan premium con la mayor variedad de canales y características.",
+        "total_channels": 250,
+        "channel_types": [
+          {
+            "type": "Entretenimiento",
+            "count": 150
+          },
+          {
+            "type": "Deportes",
+            "count": 70
+          },
+          {
+            "type": "Noticias",
+            "count": 30
+          }
+        ],
+        "features": [
+          "Calidad HD, Full HD y 4K",
+          "Guía de programación avanzada",
+          "Soporte 24/7",
+          "5 dispositivos simultáneos",
+          "Contenido bajo demanda"
+        ]
+      }
+    ],
+    "comercial": [
+      {
+        "id": "iptv-com-1",
+        "name": "Vital Comercial",
+        "category": "Vital",
+        "price": 24.99,
+        "description": "Plan básico comercial para establecimientos con necesidades básicas de TV.",
+        "total_channels": 150,
+        "channel_types": [
+          {
+            "type": "Entretenimiento",
+            "count": 90
+          },
+          {
+            "type": "Deportes",
+            "count": 40
+          },
+          {
+            "type": "Noticias",
+            "count": 20
+          }
+        ],
+        "features": [
+          "Calidad HD",
+          "Licencia comercial incluida",
+          "Soporte básico para negocios",
+          "Hasta 3 pantallas"
+        ]
+      },
+      {
+        "id": "iptv-com-2",
+        "name": "Reaction Comercial",
+        "category": "Reaction",
+        "price": 34.99,
+        "description": "Plan comercial premium para negocios que requieren variedad de contenido.",
+        "total_channels": 220,
+        "channel_types": [
+          {
+            "type": "Entretenimiento",
+            "count": 120
+          },
+          {
+            "type": "Deportes",
+            "count": 70
+          },
+          {
+            "type": "Noticias",
+            "count": 30
+          }
+        ],
+        "features": [
+          "Calidad HD y Full HD",
+          "Licencia comercial incluida",
+          "Soporte prioritario 24/7",
+          "Hasta 6 pantallas",
+          "Contenido bajo demanda para negocios"
+        ],
+        "isPopular": true
+      }
+    ]
+  }
+}
