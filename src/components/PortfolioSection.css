@@ -1,0 +1,200 @@
+.portfolio {
+  background-color: #111;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.portfolio-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.portfolio-text {
+  position: relative;
+  padding: 50px 0;
+  box-sizing: border-box;
+  height: 500px;
+  z-index: 2;
+  text-align: center;
+  color: white;
+}
+
+.portfolio-word {
+  display: inline-block;
+  padding: 0 10px;
+  margin: 0;
+  position: relative;
+  font-family: 'Geist', sans-serif;
+  font-size: 100px;
+  color: #F4F4F4;
+  font-weight: 100;
+  letter-spacing: -2px;
+  line-height: 1;
+  position: absolute;
+}
+
+.portfolio-text-gradient {
+  background: linear-gradient(125deg, #F4F4F4 0%, #F4F4F4 50%, rgb(39, 165, 255) 80%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.portfolio-images .portfolio-img {
+  position: absolute;
+  width: 380px;
+  object-fit: cover;
+}
+
+.img-1 { top: 100%; left: 3%; transform: translateY(-50%); }
+.img-2 { top: 150%; left: 60%; transform: translateY(-50%); }
+.img-3 { top: 100%; left: 20%; transform: translateY(-50%); }
+.img-4 { top: 200%; left: 30%; transform: translateY(-50%); }
+.portfolio-word1 { top: 0; left: 20%; transform: translateX(-50%); }
+.portfolio-word2 { top: 10%; left: 25%; transform: translateX(50%); }
+
+/* Mobile Carousel Styles */
+.portfolio-mobile {
+  background-color: rgb(22, 22, 22);
+  padding: 60px 0;
+  overflow: hidden;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-mobile .section-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 40px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.portfolio-mobile .section-title {
+  display: inline-block;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 100;
+  background-color: rgb(22, 22, 22);
+  color: #f4f4f4;
+  margin: 11px 28px;
+  border: solid 1px #8c8b8b;
+  border-radius: 100px;
+  margin-bottom: 20px;
+  font-family: 'Geist', sans-serif;
+}
+
+.portfolio-mobile .comment {
+  font-size: 28px;
+  color: white;
+  max-width: 500px;
+  margin: 0 auto;
+  line-height: 1.3;
+  font-family: 'Geist', sans-serif;
+}
+
+.portfolio-mobile .carrusel {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding: 15px 0;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.portfolio-mobile .carrusel-track {
+  display: flex;
+  animation: scroll linear infinite;
+  width: fit-content;
+  padding: 0 10px;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.portfolio-mobile .card {
+  flex: 0 0 auto;
+  width: 280px;
+  height: 400px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+  background: transparent;
+  box-shadow: none;
+  border: none;
+}
+
+.portfolio-mobile .portfolio-image-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  background: transparent;
+}
+
+.portfolio-mobile .portfolio-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-mobile .portfolio-image:hover {
+  transform: scale(1.05);
+}
+
+/* Hide desktop version on mobile */
+@media (max-width: 767px) {
+  .portfolio {
+    display: none;
+  }
+}
+
+/* Show only desktop version on larger screens */
+@media (min-width: 768px) {
+  .portfolio-mobile {
+    display: none;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .portfolio-mobile .section-title {
+    font-size: 20px;
+    padding: 8px 20px;
+  }
+  
+  .portfolio-mobile .comment {
+    font-size: 22px;
+    padding: 0 15px;
+  }
+  
+  .portfolio-mobile .card {
+    width: 250px;
+    height: 350px;
+    margin-right: 15px;
+  }
+}
