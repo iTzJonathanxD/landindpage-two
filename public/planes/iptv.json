@@ -1,0 +1,81 @@
+{
+  "residencial": [
+    {
+      "id": "iptv-vital",
+      "name": "Vital",
+      "price": 19.99,
+      "channels": 54, 
+      "categories": {
+        "entretenimiento": 80,
+        "deportes": 40, 
+        "noticias": 30 
+      },
+      "features": [
+        { "icon": "MonitorPlay", "text": "Soporte HD" },
+        { "icon": "BookOpen", "text": "Guía interactiva" }
+      ]
+    },
+    {
+      "id": "iptv-reaction",
+      "name": "Reaction",
+      "price": 44.99,
+      "channels": 70, 
+      "categories": {
+        "entretenimiento": 100,
+        "deportes": 60,
+        "noticias": 40 
+      },
+      "features": [
+        { "icon": "Tv", "text": "Canales deportivos y películas" },
+        { "icon": "MonitorSmartphone", "text": "Soporte 4K" }
+      ]
+    },
+    {
+      "id": "iptv-unlimited",
+      "name": "Unlimited",
+      "price": 69.99, 
+      "channels": 15,
+      "categories": {
+        "entretenimiento": 150,
+        "deportes": 100, 
+        "noticias": 50 
+      },
+      "features": [
+        { "icon": "Globe", "text": "Canales internacionales" },
+        { "icon": "Headphones", "text": "Soporte técnico dedicado" }
+      ]
+    }
+  ],
+  "comercial": [
+    {
+      "id": "iptv-comercial-vital",
+      "name": "Vital",
+      "price": 44.99, 
+      "channels": 57, 
+      "categories": {
+        "entretenimiento": 100, 
+        "deportes": 60, 
+        "noticias": 40 
+      },
+      "features": [
+        { "icon": "MonitorPlay", "text": "Soporte HD" },
+        { "icon": "BookOpen", "text": "Guía interactiva" }
+      ]
+    },
+    {
+      "id": "iptv-comercial-reaction",
+      "name": "Reaction",
+      "price": 84.99, 
+      "channels": 75,
+      "categories": {
+        "entretenimiento": 180, 
+        "deportes": 120,
+        "noticias": 50 
+      },
+      "features": [
+        { "icon": "Tv", "text": "Canales deportivos y películas" },
+        { "icon": "MonitorSmartphone", "text": "Soporte 4K" }
+      ]
+    }
+  ]
+}
